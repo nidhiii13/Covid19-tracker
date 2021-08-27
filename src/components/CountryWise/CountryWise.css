@@ -1,0 +1,29 @@
+.main-box{
+    overflow: hidden;
+    position:absolute;
+    left: 48%;
+    top: 34%;
+    
+    transform: translate(-50%, 0%);
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    text-align: center;
+    width:56%;
+    height: 60%;
+}
+.main-box ul{
+    margin-top:1rem;
+}
+.main-box ul li{
+  
+    list-style: none;
+    float: left;
+   
+    margin-bottom: 10px;
+}
+
+.active{
+    text-align: center;
+    color: rgba(228, 8, 8, 0.767);
+}

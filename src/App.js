@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { Switch } from "react-router-dom";
+import Searchbar from "./components/SearchBar/Searchbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import { Route } from "react-router";
+import Statewise from "./components/Statewise/Statewise";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <div className="head">
+   <h1>COVID-19 TRACKER</h1>
+   </div>
+   <Sidebar />
+   <Switch>
+     <Route path="/countrywise">
+     <Searchbar />
+     </Route>
+     <Route path="/statewise">
+     <Statewise />
+     </Route>
+   </Switch>
+   </>
   );
 }
 

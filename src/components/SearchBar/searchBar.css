@@ -1,0 +1,16 @@
+.search{
+    text-align: center;
+}
+#searchb{
+    
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left:0.3rem;
+}
+.country{
+    margin-left: 2rem;;
+}
+#filled-basic{
+
+    background-color: rgb(224, 215, 208);
+}

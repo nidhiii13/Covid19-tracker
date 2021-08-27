@@ -1,0 +1,33 @@
+body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+   
+}
+.sidenav {
+
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(28, 26, 29);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 20px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(144, 199, 185);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
